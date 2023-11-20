@@ -1,6 +1,7 @@
 require("dotenv").config();// this is used for credencial 
 const express = require("express");
 const app = express();
+require("./db/conn");
 const cors = require("cors");
 const PORT = 5004;
 
